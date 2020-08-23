@@ -125,7 +125,7 @@ class TicTacToe:
         if self.win_condition:
             cprint('Game Ended, {} won!'.format(self.turn), 'green', attrs=['blink'])
         else:
-            cprint('Game ended with a tie, aoisfyausfuyausfas restart the game', 'white', attrs=['blink'])
+            cprint('Game ended with a tie, please restart the game', 'white', attrs=['blink'])
 
 game = TicTacToe()
 game.start()
